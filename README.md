@@ -1,27 +1,25 @@
-# Handler_v1.1
-Documentation and development of a script for managing software updates and AD certificates
+# System Update and Certificate Management Script
 
-# ESO-Script-Documentation
+This repository houses a script designed for managing system software updates and facilitating the search for certificates in a networked environment. It's built to provide essential functionalities for system administrators and IT professionals.
 
-This repository documents the development and discussion around a script used for managing software updates and Active Directory (AD) certificates at the European Southern Observatory (ESO).
+## Features
 
-## Overview
+- **System Information Display:** Automatically displays the operating system version and domain membership status upon execution.
+- **Software Update Checks:** Offers users the ability to check for and apply software updates, including a review of the last update and upgrade actions.
+- **Certificate Search Functionality:** Enables searching for machine certificates within a specified directory, ideal for networked environments and internal infrastructures.
 
-The script has evolved to support multiple functionalities, including:
+## Getting Started
 
-- Checking for software updates.
-- Searching for AD certificates.
-- Displaying system and domain information.
+### Prerequisites
 
-## Script Features
+Ensure you have administrative access and the necessary permissions on your system to run the script.
 
-- **System and Domain Information Display:** Upon initiation, the script provides information about the operating system and domain membership status.
-- **Software Update Checks:** Users can check for system updates and review the last update timestamp.
-- **AD Certificate Search:** The script supports searching for machine certificates within the AD.
+### Usage
 
-## Usage
+To use the script, follow these steps:
 
-To use the script, clone this repository and execute the script via a Bash terminal:
-
-```bash
-bash ./Handler_v1.1.sh
+1. Clone this repository to your local machine.
+2. Open a terminal and navigate to the script's directory.
+3. Run the script using:
+   ```bash
+   bash ./script-name.sh
